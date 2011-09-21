@@ -2,7 +2,39 @@ body{
     background-color: #050505;
 }
 
+#theimage{
+    font-family: Verdana;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 9.2em;
+}
+
+#theimage a {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#theimage a:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+    border-bottom: .2em;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+#theimage a :visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 img.image{
-    margin: 10px 25% 0 25%;
     float: center;
+    width: 600px;
+    height: 600px;
 }
