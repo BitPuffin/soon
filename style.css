@@ -7,6 +7,12 @@ p {
 	font-size: 1.2em;
 }
 
+p.footer {
+	color: #555;
+	font-size: 0.9em;
+	text-align: center;
+}
+
 a {
 	color: #555;
 }
