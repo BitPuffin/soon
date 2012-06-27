@@ -2,6 +2,11 @@ body{
     background-color: #050505;
 }
 
+p {
+	font-family: PrintBold;
+	font-size: 1.2em;
+}
+
 a {
 	color: #555;
 }
@@ -41,4 +46,8 @@ img.main {
 @font-face {
 	font-family: Bonveno;
 	src: url('fonts/BonvenoCF-Light.otf');
+}
+@font-face {
+	font-family: PrintBold;
+	src: url('fonts/PrintBold.otf');
 }
