@@ -2,7 +2,43 @@ body{
     background-color: #050505;
 }
 
-img.image{
-    margin: 10px 25% 0 25%;
-    float: center;
+a {
+	color: #555;
+}
+
+#site {
+	color: #FFF;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #202020;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #151515;
+	padding: 10px;
+}
+
+header {
+	font-family: Bonveno;
+	font-size: 2em;
+	color: #999;
+}
+
+header.main {
+	color: #FFF;
+	font-size: 4em;
+}
+
+img.main {
+	width: 12em;
+	height: 12em;
+	float: left;
+}
+
+@font-face {
+	font-family: Bonveno;
+	src: url('fonts/BonvenoCF-Light.otf');
 }
